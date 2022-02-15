@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+	#nav1 {
+		position: fixed;
+		width: 100%;
+	}
+  
+  header {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .images {
+    background-image: url("../img/car1.jpg") ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 913px;
+  }
+  
+  .text-head {
+    font-family: Pacifico, serif;
+    color: #444;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+  }
+
+  /* About page */
+  #about {
+    color: #444;
+  }
+  
+  #about h1 {
+		font-size: 50px;
+    text-align: center;
+  }
+
+	.span {
+		text-align: center;
+		color: blue;
+		font-size: 50px;
+		font-weight: 900;
+	}
+
+	#about p {
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.line{
+		position: relative;
+		color: darkturquoise;
+		font-size: 38px;
+		font-weight: 800;
+		margin-bottom: 60px;
+	}
+
+	.line::before{
+		content: '';
+		position: absolute;
+		top: 16px;
+		left: 50%;
+		width: 240px;
+		height: 4px;
+		background: darkturquoise;
+		transform: translate(-50%);
+	}
+
+	.line::after{
+		content: '';
+		position: absolute;
+		top: 6px;
+		left: 50%;
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;
+		background: darkturquoise;
+		transform: translate(-50%);
+	}
+
+  .box-about {
+    margin: 20px 0;
+    width: 1000px;
+    height: auto;
+  }
+
+  .img {
+	background-image: url(../img/avatar.jpeg);
+	background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+
+	.img {
+		width: 30%;
+		margin: auto;
+	}
+
+	.box-about h1 {
+		color: #fff;
+	}
+
+	.box-about p {
+		color: #fff;
+	}
+
+	/* Skills page */
+	
+	.bg-dark {
+		background-color: #000;
+		color: #fff;
+	}
+
+	#skills {
+		margin-top: 80px;
+	}
+
+	#skills h1, p {
+		text-align: center;
+	}
+
+	#skills p {
+		font-size: 20px;
+	}
+
+	.skills .bar{
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.skills .col-right .bar .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.skills .info span{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.skills .line1{
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: #ccc;
+    border-radius: 2px;
+}
+
+.skills .line1::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.skills .html::before{
+    width: 95%;
+    background: #e45126;
+}
+
+.skills .css::before{
+    width: 85%;
+    background: #0C73b8;
+}
+
+.skills .boo::before{
+    width: 90%;
+    background: #E3A324;
+}
+
+/* Contact page */
+
+
+
+#contact {
+	margin-top: 80px;
+}
+
+#contact h1 {
+	text-align: center;
+}
+
+/* CONTACT PAGE START */
+
+.box {
+	width: 30%;
+	float: left;
+	margin: 10px;
+	border-radius: 10px;
+	height: 300px;
+	background-color: #fff;
+}
+
+.box {
+	color: #000;
+	text-align: center;
+}
+
+.contact-icon{
+    color: blue;
+    font-size: 60px;
+    text-align: center;
+}
+
+.contact-form{
+    background: #fff;
+    min-width: 550px;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+}
+
+.contact-form h3{
+    color: #111;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-form .input-box{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea{
+    color: #111;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #111;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contact-form .input-box .send-btn{
+    color: #fff;
+    background: darkturquoise;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.contact-form .input-box .send-btn:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #111;
+}
+
+.br {
+	margin-top: 250px;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+/* footer page */
+
+#main-footer {
+	background-color: lightskyblue;
+	text-align: center;
+	padding: 10px;
+}
+
+#main-footer h1 {
+ font-family: Pacifico, sans-serif;
+}
